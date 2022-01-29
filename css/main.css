@@ -1,0 +1,217 @@
+body{
+ background-color: rgb(115, 115, 115);
+  /*solid цвет*/
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+
+}
+nav{
+    width: 100%;
+    background: #343434;
+    border-bottom: 0.2rem solid rgb(55, 55, 55);  /*solid цвет*/
+    box-shadow: 0px 4px 5px 0 rgb(0 0 0 / 55%);
+
+
+}
+
+nav ul{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 50px;
+}
+nav ul li a{ text-decoration: none; color: white;
+   font-size: 14pt; 
+   font-family: 'Raleway', sans-serif ;
+ }
+ .flags img{
+    width: 16px;
+    height: 10px;
+    margin-left: 3px;
+
+ }
+ .flags{
+   position: relative;
+   float: right;
+   bottom: 35px;
+   right: 260px;
+ }
+ .container{
+    font-family: 'Raleway', sans-serif ;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    background: rgb(95, 95, 95);
+    margin-top: 25px;
+ }
+ .foto img{
+    height: 325px;
+ }
+
+.foto{
+    height: 325px;
+    position: absolute;
+    left: 73.5%;
+    padding-top: 8px;
+    margin-right: 90px;
+    box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 55%);
+ }
+
+ .container h1,h2{
+    font-size: 25pt;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(55, 55, 55);
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0.295);
+    box-shadow: 0px 5px 5px 0 rgb(0 0 0 / 30%); 
+ }
+
+ .about{
+    color: rgb(239, 239, 239);
+    height: 25%;
+    width: 979.5px;
+    padding-left: 4px;
+    text-align: justify;
+ }
+
+ .about2{
+   color: rgb(239, 239, 239);
+   text-align: justify;
+ }
+
+.about2 p{
+    padding: 10px 7px 0 5px;
+}
+
+html{
+    transform: scale(100%);
+}
+
+.corobka{
+    font-family: 'Raleway', sans-serif ;
+    position: relative;
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    background: rgb(95, 95, 95);
+    margin-top: 25px; 
+    margin-right: 335px;
+}
+
+.corobka2{
+    font-family: 'Raleway', sans-serif ;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    /*margin-bottom: 100px;*/
+    margin-left: 3px;
+    width: 17%;
+    height: 600px;
+    background: rgb(70, 70, 70);
+    /*left: 100%;*/
+    box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 55%);
+}
+
+.corobka p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 10px 7px 0 5px;
+}
+
+.corobka h1{
+ text-align: center;
+ color: rgb(255, 255, 255);
+ text-shadow: 3px 3px rgb(55,55,55);
+ border-bottom: 0.15rem solid rgba(0, 0, 0, 0.295);
+ box-shadow: 0px 5px 5px 0 rgb(0 0 0 / 30%); 
+}
+
+.corobka h2{
+    font-size: 16pt;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px rgb(55,55,55);
+    border-bottom: 0.15rem solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px 0 rgba(255, 255, 255, 30%); 
+    margin: 0 auto;
+    width: 500px;
+    border-bottom-style:initial;
+}
+
+.main{
+ display: flex;
+}
+
+.corobka2 h1{
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    border-bottom: 0.15rem solid rgb(255, 255, 255); 
+}
+
+.corobka2 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 7px 0 5px;  
+}
+
+#item{
+color:bisque;
+}
+
+.foto2 img{
+height: 325px;
+display: flex;
+flex-direction: column;
+align-items: center;
+float: left;
+margin-top: 50px;
+padding-left: 100px;
+}
+
+.foto3 img{
+height: 325px;
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+float: left;
+padding-top: 470px;
+margin-right: 180px;
+padding-left: 44px;
+box-shadow: 8px 0px 5px 0 rgb(0 0 0 / 50%);
+}
+
+footer{
+    width: 100%;
+    height: 6.3%;
+    margin-top: 4.1%;
+    clear:both;
+    position: absolute;
+    background: #343434;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+button{
+    color: #ffffff;
+    margin-top: 1.1%;
+    float: left;
+    margin-left: 50px;
+    background-size: auto;
+    border: rgb(255, 255, 255);
+    background-color: #343434;
+}
+
+
